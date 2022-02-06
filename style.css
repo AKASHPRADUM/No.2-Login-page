@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('bg1.jpg')no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+color: white;
+position: absolute ;
+width: 20%;
+top: 32% ;
+left:38%;
+
+}
+.container h1{
+    display: inline-block;
+    font-size: 44px;
+    border-bottom: 2px solid purple;
+    margin-bottom: 6px;
+    padding: 2px;
+
+}
+.box{
+    border-bottom: 2px solid purple;
+    width: 100%;
+
+}
+.box input{
+    background: none;
+    margin: 6px 0px;
+    padding: 5px 0px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+.box i{
+    width: 25px;
+    color: black;
+    margin: 2px 2px;
+    text-align: center;
+}
+.btn{
+    background: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 8px;
+    padding: 2px 8px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
